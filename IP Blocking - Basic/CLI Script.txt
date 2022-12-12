@@ -1,0 +1,14 @@
+configure terminal
+object network OBJ_192.241.208.203
+host 192.241.208.203
+description Blacklisted IM41891
+object network OBJ_185.167.96.146
+host 185.167.96.146
+description Blacklisted IM41891
+exit
+
+object-group network BLOCK_LIST
+network-object object OBJ_192.241.208.203
+network-object object OBJ_185.167.96.146
+end
+wr

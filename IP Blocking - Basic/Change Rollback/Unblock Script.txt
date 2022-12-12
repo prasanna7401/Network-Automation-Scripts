@@ -1,0 +1,4 @@
+object-group network BLOCK_LIST
+no network-object object OBJ_169.228.66.212
+exit
+
