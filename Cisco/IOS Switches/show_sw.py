@@ -30,7 +30,7 @@ thread_list = []
 
 for device_ip in device_list:
     device_detail = {'host': device_ip, 'device_type':'cisco_ios',
-                    'username':'adm-venkatp1', 'password':'Network@1234', 'secret':'Network@1234', 'verbose':True}
+                    'username':'admin', 'password':'XXXXX', 'secret':'XXXXX', 'verbose':True} #password is normal login password, secret is privilege escalation password
     
     th = Thread(target=show_in,args=(device_detail,))
     thread_list.append(th)    
