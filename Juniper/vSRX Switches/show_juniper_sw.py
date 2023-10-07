@@ -30,7 +30,7 @@ thread_list = []
 
 for device_ip in device_list:
     device_detail = {'host': device_ip, 'device_type':'juniper_junos',
-                    'username':'adm-venkatp1', 'password':'Network@1234', 'port':22, 'verbose':True}
+                    'username':'admin', 'password':'XXXXXXX', 'port':22, 'verbose':True}
     
     th = Thread(target=show_in,args=(device_detail,))
     thread_list.append(th)    

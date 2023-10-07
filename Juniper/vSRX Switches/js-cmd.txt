@@ -1,14 +1,1 @@
-show configuration | match 10.201.204.31 | display set
-show configuration | match 10.201.204.30 | display set
-show configuration | match 10.201.204.130 | display set
-show configuration | match 10.12.93.250 | display set
-show configuration | match 10.41.62.7 | display set
-show configuration | match 10.201.226.190 | display set
-show configuration | match 10.201.221.207 | display set
-show configuration | match 10.206.0.211 | display set
-show configuration | match 10.206.10.59 | display set
-show configuration | match 10.201.207.211 | display set
-show configuration | match 10.19.224.5 | display set
-show configuration | match 10.41.63.6 | display set
-show configuration | match 10.206.10.65 | display set
-show configuration | match 10.201.218.118 | display set
+show configuration | match 10.0.0.1 | display set
